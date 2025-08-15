@@ -17,8 +17,9 @@ function App() {
 
   return (
     <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
+      <text>
+        Hola Mundo
+      </text>
     </SafeAreaProvider>
   );
 }
